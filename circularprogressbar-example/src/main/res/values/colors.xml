@@ -3,4 +3,5 @@
     <color name="primary">#424242</color>
     <color name="primary_dark">#212121</color>
     <color name="accent">@color/primary</color>
+    <color name="appBlueLight">#B6C9D9</color>
 </resources>

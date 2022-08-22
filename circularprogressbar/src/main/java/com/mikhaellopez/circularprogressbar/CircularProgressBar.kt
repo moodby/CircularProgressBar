@@ -232,9 +232,9 @@ open class CircularProgressBar(context: Context, attrs: AttributeSet? = null) : 
     }
 
     override fun onDetachedFromWindow() {
-        super.onDetachedFromWindow()
         progressAnimator?.cancel()
         indeterminateModeHandler?.removeCallbacks(indeterminateModeRunnable)
+        super.onDetachedFromWindow()
     }
 
     //region Draw Method
